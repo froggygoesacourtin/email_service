@@ -1,0 +1,2 @@
+g++ -o mabtest1 mabtest1.cpp mab.cpp
+g++ -std=c++11 -o UserItemTest UserItemTest.cpp UserItemStore.cpp

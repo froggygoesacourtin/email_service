@@ -30,6 +30,7 @@ UserItemStore::~UserItemStore() {
  delete _itemUserCountMap;
 }
 
+// Add item to store
 void UserItemStore::add(map<int, map<int, int>* > *m, int key, int val) {
  map<int, map<int, int> * >::iterator itmap;
  map<int, int> *itemMap;
@@ -51,6 +52,7 @@ void UserItemStore::add(map<int, map<int, int>* > *m, int key, int val) {
  }
 }
 
+// Remove item from store
 void UserItemStore::remove(map<int, map<int, int>* > *m, int key, int val) {
  map<int, map<int, int> * >::iterator itmap1;
  map<int, int>::iterator itmap2;
@@ -76,6 +78,7 @@ void UserItemStore::remove(map<int, map<int, int>* > *m, int key, int val) {
  }
 }
 
+// Get item from store
 int UserItemStore::get(map<int, map<int, int>* > *m, int key, int val) {
  map<int, map<int, int> * >::iterator itmap1;
  map<int, int>::iterator itmap2;
@@ -93,6 +96,7 @@ int UserItemStore::get(map<int, map<int, int>* > *m, int key, int val) {
  return 0;
 }
 
+// Reset store
 void UserItemStore::clear(map<int, map<int, int>* > *m) {
  map<int, map<int, int> * >::iterator itmap;
 

@@ -225,6 +225,7 @@ int predict(int rawItemId1, SortElement *se) {
  return count;
 }
 
+// Learn is stochastic gradient descent on matrix factorization, with average item, and user and item bias
 void learn() {
  unsigned long seed = 457345325;
  float match, pred, normPred, err, normErr, RMSE, prvRMSE;

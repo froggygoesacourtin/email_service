@@ -1,4 +1,4 @@
-// Copyright Andrew Weiss 2015,2016
+// Copyright Andrew Weiss 2019
 // All rights reserved
 // iteration: 99 RMSE: 0.183857
 

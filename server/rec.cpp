@@ -1,4 +1,4 @@
-// Copyright Andrew Weiss 2019
+// Copyright Andrew Weiss 2020
 // All rights reserved
 // iteration: 99 RMSE: 0.183857
 
@@ -128,7 +128,7 @@ void readDataFile() {
   itemMean1[itemId1] = itemMean1[itemId1] / itemCount1[itemId1];
  }
 
- printf("frequency distribution\n");
+ printf("frequency distribution:\n");
  for (i = 0; i < 2; i++) {
   freq[i] = float(hist[i]) / float(matchCount);
   printf("%d: %f\n", i, freq[i]);
